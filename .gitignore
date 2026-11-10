@@ -1,3 +1,7 @@
+# ignore everything vendored into src/ via tiago.repos, keep our own package
+src/*
+!src/tiago_visual_servoing/
+
 # colcon
 build/
 install/
