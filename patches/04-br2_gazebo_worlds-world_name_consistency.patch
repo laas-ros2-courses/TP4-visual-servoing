@@ -1,0 +1,50 @@
+--- a/src/br2_gazebo_worlds/worlds/empty.world
++++ b/src/br2_gazebo_worlds/worlds/empty.world
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" ?>
+ <sdf version="1.4">
+-  <world name="default">
++  <world name="empty">
+     <physics type="ode">
+       <gravity>0 0 -9.81</gravity>
+       <ode>
+--- a/src/br2_gazebo_worlds/worlds/follow_line.world
++++ b/src/br2_gazebo_worlds/worlds/follow_line.world
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" ?>
+ <sdf version="1.4">
+-  <world name="default">
++  <world name="follow_line">
+     <physics type="ode">
+       <gravity>0 0 -9.81</gravity>
+       <ode>
+--- a/src/br2_gazebo_worlds/worlds/house.world
++++ b/src/br2_gazebo_worlds/worlds/house.world
+@@ -1,6 +1,6 @@
+ <?xml version="1.0"?>
+ <sdf version="1.6">
+-    <world name='default'>
++    <world name='house'>
+         <physics name="5ms" type="ignored">
+             <max_step_size>0.005</max_step_size>
+             <real_time_factor>1.0</real_time_factor>
+--- a/src/br2_gazebo_worlds/worlds/house_pick_and_place.world
++++ b/src/br2_gazebo_worlds/worlds/house_pick_and_place.world
+@@ -1,6 +1,6 @@
+ <?xml version="1.0"?>
+ <sdf version="1.6">
+-    <world name='default'>
++    <world name='house_pick_and_place'>
+         <physics name="5ms" type="ignored">
+             <max_step_size>0.005</max_step_size>
+             <real_time_factor>1.0</real_time_factor>
+--- a/src/br2_gazebo_worlds/worlds/pick_and_place.world
++++ b/src/br2_gazebo_worlds/worlds/pick_and_place.world
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" ?>
+ <sdf version="1.4">
+-  <world name="default">
++  <world name="pick_and_place">
+     <physics name="5ms" type="ignored">
+         <max_step_size>0.005</max_step_size>
+         <real_time_factor>1.0</real_time_factor>

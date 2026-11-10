@@ -1,0 +1,13 @@
+# colcon
+build/
+install/
+log/
+
+# nix
+result
+result-*
+.direnv/
+
+# python
+__pycache__/
+*.pyc

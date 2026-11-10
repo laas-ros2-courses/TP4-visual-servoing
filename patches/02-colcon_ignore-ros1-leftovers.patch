@@ -1,0 +1,24 @@
+--- /dev/null
++++ b/src/tiago_simulation/tiago_multi/COLCON_IGNORE
+@@ -0,0 +1 @@
++
+--- /dev/null
++++ b/src/pal_robotiq_gripper/pal_robotiq_gripper_wrapper/COLCON_IGNORE
+@@ -0,0 +1 @@
++
+--- /dev/null
++++ b/src/pal_gripper/pal_parallel_gripper_wrapper/COLCON_IGNORE
+@@ -0,0 +1 @@
++
+--- /dev/null
++++ b/src/pal_gripper/pal_gripper_gazebo/COLCON_IGNORE
+@@ -0,0 +1 @@
++
+--- /dev/null
++++ b/src/pmb2_navigation/pmb2_rgbd_sensors/COLCON_IGNORE
+@@ -0,0 +1 @@
++
+--- /dev/null
++++ b/src/pal_robotiq_gripper/pal_robotiq_gripper/COLCON_IGNORE
+@@ -0,0 +1 @@
++

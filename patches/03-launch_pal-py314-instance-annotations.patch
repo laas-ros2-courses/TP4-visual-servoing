@@ -1,0 +1,16 @@
+--- a/src/launch_pal/launch_pal/arg_utils.py
++++ b/src/launch_pal/launch_pal/arg_utils.py
+@@ -98,7 +98,12 @@ class LaunchArgumentsBase:
+
+
+         """
+-        annotations = getattr(self, '__annotations__', {})
++        # Use the class' __annotations__, not the instance's: on Python 3.14+,
++        # accessing __annotations__ on an instance raises AttributeError
++        # instead of silently falling back to the class' (as it did on older
++        # Python), which made this loop declare nothing and left some
++        # LaunchConfigurations (e.g. 'navigation', 'base_type'...) undefined.
++        annotations = getattr(type(self), '__annotations__', {})
+         for attr, type_ in annotations.items():
+             launch_description.add_action(getattr(self, attr))
+         return
